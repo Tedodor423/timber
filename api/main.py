@@ -1,6 +1,6 @@
 # init Flask
 from flask import Flask, render_template
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 # init AI
 #from openai import OpenAI
@@ -24,7 +24,7 @@ def home():
 
     # return "Hello Timberrrr"
 
-    page = render_template("index.html", tree="StromZivota")
+    page = render_template("Home.html", tree = "StromZivotaa")
 
     return page
 
