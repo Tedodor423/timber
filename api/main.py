@@ -5,7 +5,7 @@ app = Flask(__name__, static_url_path='/static')
 from random import choice, randint
 
 def generate_tree(nameage, height, distance, treeimageNo, shoplink, description):
-    page = render_template("home.html",
+    page = render_template("Home.html",
                             nameage=nameage,
                             height=height,
                             distance=distance,
