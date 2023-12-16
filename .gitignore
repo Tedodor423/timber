@@ -3,6 +3,8 @@
 *.pyc
 __pycache__
 
+generator.py
+
 # Environments 
 .env 
 .venv 
